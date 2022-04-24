@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>All Users</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <label>Users:</label><br>
+    <table>
+        <% users.forEach( function(user) { %>
+        
+            <tr>
+            	<td><%= user.username %></td>
+            </tr>
+        
+        <% }); %>
+     </table>
+  </body>
+</html> 

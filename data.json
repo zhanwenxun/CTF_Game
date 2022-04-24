@@ -1,0 +1,133 @@
+{
+    "filename": "data.json",
+    "collections": [
+        {
+            "name": "Users",
+            "data": [
+                {
+                    "username": "Mike",
+                    "password": "abcdefgh",
+                    "base": "TWlrZQ==",
+                    "grade": "CTF_{NOWYOUSEEME}",
+                    "major": "DAAI",
+                    "from": "Mainland",
+                    "tips": "You also can go to below url to see your more information.(You may need to modify it according to your port number)",
+                    "url": "http://localhost:5000/base/TWlrZQ==",
+                    "assignment": "",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1649573746540,
+                        "version": 0
+                    },
+                    "$loki": 1
+                },
+                {
+                    "username": "Root",
+                    "password": "19980801",
+                    "base": "Um9vdA==",
+                    "grade": "",
+                    "major": "",
+                    "from": "",
+                    "tips": "You also can go to below url to see your more information.(You may need to modify it according to your port number)",
+                    "url": "http://localhost:5000/base/Um9vdA==",
+                    "assignment": "",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1649573773191,
+                        "version": 0
+                    },
+                    "$loki": 2
+                },
+                {
+                    "username": "John",
+                    "password": "john7170",
+                    "base": "Sm9obg==",
+                    "grade": "3.45",
+                    "major": "ITM",
+                    "from": "Local",
+                    "tips": "You also can go to below url to see your more information.(You may need to modify it according to your port number)",
+                    "url": "http://localhost:5000/base/Sm9obg==",
+                    "assignment": "You need to get the username of the mysterious user first, go to the homepage and think about how to get administrator accounts.",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1649573773192,
+                        "version": 0
+                    },
+                    "$loki": 3
+                }
+            ],
+            "idIndex": null,
+            "binaryIndices": {},
+            "constraints": null,
+            "uniqueNames": [],
+            "transforms": {},
+            "objType": "Users",
+            "dirty": false,
+            "cachedIndex": null,
+            "cachedBinaryIndex": null,
+            "cachedData": null,
+            "adaptiveBinaryIndices": true,
+            "transactional": false,
+            "cloneObjects": false,
+            "cloneMethod": "parse-stringify",
+            "asyncListeners": false,
+            "disableMeta": false,
+            "disableChangesApi": true,
+            "disableDeltaChangesApi": true,
+            "autoupdate": false,
+            "serializableIndices": true,
+            "disableFreeze": true,
+            "ttl": null,
+            "maxId": 2,
+            "DynamicViews": [],
+            "events": {
+                "insert": [],
+                "update": [],
+                "pre-insert": [],
+                "pre-update": [],
+                "close": [],
+                "flushbuffer": [],
+                "error": [],
+                "delete": [
+                    null
+                ],
+                "warning": [
+                    null
+                ]
+            },
+            "changes": [],
+            "dirtyIds": []
+        }
+    ],
+    "databaseVersion": 1.5,
+    "engineVersion": 1.5,
+    "autosave": true,
+    "autosaveInterval": 4000,
+    "autosaveHandle": null,
+    "throttledSaves": true,
+    "options": {
+        "autoload": true,
+        "autosave": true,
+        "autosaveInterval": 4000,
+        "serializationMethod": "normal",
+        "destructureDelimiter": "$<\n",
+        "recursiveWait": true,
+        "recursiveWaitLimit": false,
+        "recursiveWaitLimitDuration": 2000,
+        "started": 1649573729172
+    },
+    "persistenceMethod": "fs",
+    "persistenceAdapter": null,
+    "verbose": false,
+    "events": {
+        "init": [
+            null
+        ],
+        "loaded": [],
+        "flushChanges": [],
+        "close": [],
+        "changes": [],
+        "warning": []
+    },
+    "ENV": "NODEJS"
+}
